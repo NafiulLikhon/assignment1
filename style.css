@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 .bgimg {
   background-image: url(images/donation4.jpg);
@@ -7,8 +9,7 @@ body {
   height: 100vh;
   background-size: cover;
 }
-h1,
-p {
+.text-color {
   color: white;
   text-align: center;
   font-size: xx-large;
@@ -37,11 +38,8 @@ p {
 }
 .amount {
   background-color: bisque;
-  width: 10%;
-  margin-left: 3%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: black;
+  margin: 20px;
+  padding: 30px;
 }
 #flex-arrang {
   display: flex;
@@ -54,4 +52,66 @@ p {
 }
 .border {
   border: 2px solid red;
+}
+.givemedicine {
+  height: 300px;
+  width: 30%;
+  background-image: url(icons/medicine.svg);
+  background-repeat: no-repeat;
+  background-color: bisque;
+  padding-top: 90px;
+  text-align: center;
+}
+.givefood {
+  height: 300px;
+  width: 30%;
+  background-image: url(icons/icon11.svg);
+  background-repeat: no-repeat;
+  background-color: aqua;
+  margin-left: 30px;
+  padding-top: 90px;
+  text-align: center;
+}
+.blood-donetion {
+  height: 300px;
+  width: 30%;
+  background-image: url(icons/blood.svg);
+  background-repeat: no-repeat;
+  background-color: blueviolet;
+  margin-left: 30px;
+  padding-top: 90px;
+  text-align: center;
+}
+.arrange {
+  display: flex;
+  margin-left: 100px;
+}
+.halfwidth {
+  width: 50%;
+  margin-top: 30px;
+}
+.anotherhalfwidth {
+  width: 50%;
+  margin-top: 120px;
+}
+.inlinearrng {
+  display: flex;
+}
+.fornews {
+  text-align: center;
+  margin-top: 100px;
+}
+.alignbutton {
+  text-align: center;
+}
+footer {
+  background-color: black;
+  height: 100px;
+  width: 100%;
+  margin-top: 20px;
+}
+#footertext {
+  color: white;
+  text-align: center;
+  padding-top: 35px;
 }
